@@ -1,0 +1,6 @@
+cd ~
+cd ShellColors
+cp getColorCode $PREFIX/bin/getColorCode
+chmod +x $PREFIX/bin/getColorCode
+echo -e "Done !"
+cd ~
