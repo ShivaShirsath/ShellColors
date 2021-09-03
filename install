@@ -1,4 +1,5 @@
 cd ~
+pkg install bc -y
 cd ShellColors
 cp getColorCode $PREFIX/bin/getColorCode
 chmod +x $PREFIX/bin/getColorCode
