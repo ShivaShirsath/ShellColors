@@ -9,3 +9,14 @@ git clone https://github.com/ShivaShirsath/ShellColors.git
 bash ~/SheolColors/install
 cd ~
 ```
+### Generate Code 
+```bash
+getColorCode
+```
+
+### Use code
+```bash
+echo -e "[ long press & paste Color Code ]Your Text !"
+# Or
+printf "[ Long press & paste Color Code ]Your Text !"
+```
