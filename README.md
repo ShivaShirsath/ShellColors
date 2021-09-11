@@ -15,7 +15,7 @@ getColorCode
 ```
 
 ### Use code
-```bash
+```json
 echo -e "[ long press & paste Color Code ]Your Text !"
 # Or
 printf "[ Long press & paste Color Code ]Your Text !"
