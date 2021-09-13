@@ -6,12 +6,12 @@
 pkg install git -y
 cd ~
 git clone https://github.com/ShivaShirsath/ShellColors.git
-bash ~/SheolColors/install
+bash ~/ShellColors/install
 cd ~
 ```
 ### Generate Code 
 ```bash
-getColorCode
+bash ~/ShellColors/getColorCode
 ```
 
 ### Use code
