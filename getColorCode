@@ -1,41 +1,47 @@
 #!/bin/bash
 
 echo -e "
-	 R G B | C
-	-----------
-	 5 5 5 | \\033[1;38;5;16;48;5;231m| White  |\\033[0m
-	 5 0 0 | \\033[1;38;5;16;48;5;196m| Red    |\\033[0m
-	 5 3 0 | \\033[1;38;5;16;48;5;214m| 0range |\\033[0m
-	 5 5 0 | \\033[1;38;5;16;48;5;226m| Yellow |\\033[0m
-	 0 5 0 | \\033[1;38;5;16;48;5;46m| Green  |\\033[0m
-	 0 5 5 | \\033[1;38;5;16;48;5;21m| Blue   |\\033[0m
-	 5 0 5 | \\033[1;38;5;16;48;5;201m| Pink   |\\033[0m
-	 5 3 5 | \\033[1;38;5;16;48;5;129m| Purple |\\033[0m
-	 0 3 5 | \\033[1;38;5;16;48;5;39m| Sky    |\\033[0m
-	 0 5 5 | \\033[1;38;5;16;48;5;51m| Cyan   |\\033[0m
-	 0 0 0 | \\033[1;38;5;231;48;5;16m| Black  |\\033[0m
+ Option | Font      | R G B | F/B | Reset
+-------------------------------------------
+ 0      | Normal    | * * * |     | \\\\\\\\033[0m \\033[0m
+ 1      | Bold      | * * * |     |\\033[0m
+ 2      | Dim       | * * * |     |\\033[0m
+ 3      | Italic    | * * * |  *  |\\033[0m
+ 4      | Underline | * * * |  *  |\\033[0m
+ 5      | Blink     | * * * |     |\\033[0m
+ 6      | Intensity |       |     |\\033[0m
+ 7      | Reverse   |       |     |\\033[0m
+ 8      | Invisible |       |     |\\033[0m
+ 9      | Strike    |       |     |\\033[0m
+
 "
 echo -e "
-	Enter ForeGround Color-Code :
+	Enter Font :
 "
-read -p "	R : " fgr
-read -p "	G : " fgg
-read -p "	B : " fgb
+read -p "
+	0 to 9
+	: " f
+
+echo -e "
+	Enter ForeGround or Background Code :
+"
+read -p "
+	3 Or 4
+	: " g
 
 echo -e "
         Enter BackGround Color-Code :
 "
-read -p "	R : " bgr
-read -p "	G : " bgg
-read -p "	B : " bgb
+read -p "	R : " r
+read -p "	G : " g
+read -p "	B : " b
 
 function RGBcolor {
     echo -e "16 + $1 * 36 + $2 * 6 + $3" | bc
 }
 
-fg=$(RGBcolor $fgr $fgg $fgb)
-bg=$(RGBcolor $bgr $bgg $bgb)
+c=$(RGBcolor $r $g $b)
 
-$PREFIX/bin/termux-clipboard-set "\\\\\\\\033[1;38;5;$fg;48;5;${bg}m"
+$PREFIX/bin/termux-clipboard-set "\\\\\\\\033[${f};${g}8;5;${c}m"
 
-echo -e "\n\\033[1;38;5;$fg;48;5;${bg}m This Color Code Copied on ClipBoard \\033[0m"
+echo -e "\n\\033[${f};${g}8;5;${c}m This Color Code Copied on ClipBoard \\033[0m\n"
