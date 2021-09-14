@@ -1,18 +1,18 @@
 #!/bin/bash
 
 echo -e "
- Option | Font      | R G B | F/B | Reset
--------------------------------------------
- 0      | Normal    | * * * |     | \\\\\\\\033[0m \\033[0m
- 1      | Bold      | * * * |     |\\033[0m
- 2      | Dim       | * * * |     |\\033[0m
- 3      | Italic    | * * * |  *  |\\033[0m
- 4      | Underline | * * * |  *  |\\033[0m
- 5      | Blink     | * * * |     |\\033[0m
- 6      | Intensity |       |     |\\033[0m
- 7      | Reverse   |       |     |\\033[0m
- 8      | Invisible |       |     |\\033[0m
- 9      | Strike    |       |     |\\033[0m
+ Option | Font      | R G B | F/B | Defaults
+---------------------------------------------
+    0   | Normal    | * * * |  -  | \\\\\\\\033[0m \\033[0m
+    1   | Bold      | * * * |  -  |      * \\033[0m
+    2   | Dim       | * * * |  -  |      * \\033[0m
+    3   | Italic    | * * * |  *  |      * \\033[0m
+    4   | Underline | * * * |  *  |      * \\033[0m
+    5   | Blink     | * * * |  -  |      * \\033[0m
+    6   | Intensity | - - - |  -  |      * \\033[0m
+    7   | Reverse   | - - - |  -  |      * \\033[0m
+    8   | Invisible | - - - |  -  |      * \\033[0m
+    9   | Strike    | - - - |  -  |      * \\033[0m
 
 "
 echo -e "
