@@ -1,4 +1,4 @@
-#!/bin/
+#!/bin/fish
 pkg install bc -y
 cp ~/ShellColors/getColorCode $PREFIX/bin/getColorCode
 chmod +x $PREFIX/bin/getColorCode
