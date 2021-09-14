@@ -8,7 +8,7 @@ PWDx=$PWD
 cd ~
 git clone https://github.com/ShivaShirsath/ShellColors.git
 bash ~/SheolColors/install
-cd PWDx
+cd $PWDx
 ```
 ### Generate Code 
 ```bash
