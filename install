@@ -1,7 +1,7 @@
-cd ~
+
 pkg install bc -y
-cd ShellColors
-cp getColorCode $PREFIX/bin/getColorCode
+cp ~/ShellColors/getColorCode $PREFIX/bin/getColorCode
 chmod +x $PREFIX/bin/getColorCode
-echo -e "Done !"
-cd ~
+echo -e "
+Done !
+"

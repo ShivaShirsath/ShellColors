@@ -3,11 +3,12 @@
 ### Install in TermUX ( Android )
 
 ```bash
-pkg install git -y
+pkg install git -y 
+PWDx=$PWD
 cd ~
 git clone https://github.com/ShivaShirsath/ShellColors.git
 bash ~/SheolColors/install
-cd ~
+cd PWDx
 ```
 ### Generate Code 
 ```bash
