@@ -7,7 +7,7 @@ pkg install git -y
 PWDx=$PWD
 cd ~
 git clone https://github.com/ShivaShirsath/ShellColors.git
-bash ~/SheolColors/install
+bash ~/ShellColors/install
 cd $PWDx
 ```
 ### Generate Code 
