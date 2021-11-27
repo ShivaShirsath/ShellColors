@@ -19,15 +19,15 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 || FONT | LAYER | RED | GREEN | BLUE |
 | --- | :--- | ---: | :---: | :---: | :---: |
 | 0 | Normal | | * | * | * |
-| 1 | Bolt | | * | * | * |
+| 1 | **Bolt** | | * | * | * |
 | 2 | Dim | | * | * | * |
-| 3 | Itallic | Foreground | * | * | * |
+| 3 | *Itallic* | Foreground | * | * | * |
 | 4 | Underlined | Background | * | * | * |
 | 5 | Blink | | * | * | * |
 | 6 | Intense | | | | |
 | 7 | Reverse | | | | |
 | 8 | Invisible | | | | |
-| 9 | Strike | | | | |
+| 9 | ~Strike~ | | | | |
   
 ```bash
 getColorCode FONT LAYER RED GREEN BLUE 'TEXT'
