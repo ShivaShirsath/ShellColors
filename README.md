@@ -1,4 +1,4 @@
-#  ShellColorsShellColors
+#  Shell Colors
 
 <details>
   <summary>Installation</summary>
@@ -11,12 +11,10 @@ pkg install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/ShivaShi
 ```bash
 sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/ShivaShirsath/ShellColors.git && bash ~/ShellColors/install && cd $PWDx
 ```
-
 </details>
 
 <details>
   <summary>Generate Code</summary>
-  
 <table>
 <thead>
 <tr>
