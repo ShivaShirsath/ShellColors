@@ -93,7 +93,11 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>8</td>
-<td><img src=https://user-images.githubusercontent.com/59221352/143685191-1a4721f8-30e9-4881-af9e-49a195c5d2d2.png alt=Invisible></img></td>
+<td>Invisible
+  <!--
+<img src=https://user-images.githubusercontent.com/59221352/143685191-1a4721f8-30e9-4881-af9e-49a195c5d2d2.png alt=Invisible></img>
+-->
+  </td>
 <td></td>
 <td></td>
 <td></td>
