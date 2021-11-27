@@ -16,18 +16,18 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 <details>
   <summary>Generate Code</summary>
   
-|| F | L | R | G | B |
+|| FONT | LAYER | RED | GREEN | BLUE |
 | --- | --- | --- | --- | --- | --- |
-| 0 | * | | * | * | * |
-| 1 | * | | * | * | * |
-| 2 | * | | * | * | * |
-| 3 | * | * | * | * | * |
-| 4 | * | * | * | * | * |
-| 5 | * | | * | * | * |
-| 6 | * | | | | |
-| 7 | * | | | | |
-| 8 | * | | | | |
-| 9 | * | | | | |
+| 0 | Normal | | * | * | * |
+| 1 | Bolt | | * | * | * |
+| 2 | Dim | | * | * | * |
+| 3 | Itallic | Foreground | * | * | * |
+| 4 | Underlined | Background | * | * | * |
+| 5 | Blink | | * | * | * |
+| 6 | Intense | | | | |
+| 7 | Reverse | | | | |
+| 8 | Invisible | | | | |
+| 9 | Strike-Through | | | | |
   
 ```bash
 getColorCode FONT LAYER RED GREEN BLUE 'TEXT'
