@@ -18,7 +18,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
   
 || FONT | LAYER | RED | GREEN | BLUE |
 | --- | :--- | ---: | :---: | :---: | :---: |
-| 0 | Normal | | [x] | * | * |
+| 0 | Normal | | [x] ‎ | * | * |
 | 1 | **Bolt** | | * | * | * |
 | 2 | Dim | | * | * | * |
 | 3 | *Itallic* | Foreground | * | * | * |
