@@ -40,7 +40,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>1</td>
-<td>Bolt</td>
+<td><b>Bolt</b></td>
 <td></td>
 <td>*</td>
 <td>*</td>
@@ -56,7 +56,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>3</td>
-<td>Itallic</td>
+<td><i>Itallic</i></td>
 <td style="text-align:center">Foreground</td>
 <td>*</td>
 <td>*</td>
@@ -64,7 +64,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>4</td>
-<td>Underlined</td>
+<td><u>Underlined</u></td>
 <td style="text-align:center">Background</td>
 <td>*</td>
 <td>*</td>
@@ -88,7 +88,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>7</td>
-<td>Reverse</td>
+<td>Inverse</td>
 <td></td>
 <td></td>
 <td></td>
@@ -104,7 +104,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>9</td>
-<td>Strike</td>
+<td><strike>Strike</strike></td>
 <td></td>
 <td></td>
 <td></td>
