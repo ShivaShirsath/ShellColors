@@ -20,4 +20,5 @@ echo -e "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`"
 printf  "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`\n"
 ```
 </details>
+
 ##### when you use this, each time new color code generate & copied on your clipboard. 
