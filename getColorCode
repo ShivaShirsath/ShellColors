@@ -1,47 +1,11 @@
 #!/bin/bash
 
-echo -e "
- Option | Font      | R G B | F/B | Defaults
----------------------------------------------
-    0   | Normal    | * * * |  -  | \\\\\\\\033[0m \\033[0m
-    1   | Bold      | * * * |  -  |       * \\033[0m
-    2   | Dim       | * * * |  -  |       * \\033[0m
-    3   | Italic    | * * * |  *  |       * \\033[0m
-    4   | Underline | * * * |  *  |       * \\033[0m
-    5   | Blink     | * * * |  -  |       * \\033[0m
-    6   | Intensity | - - - |  -  |       * \\033[0m
-    7   | Reverse   | - - - |  -  |       * \\033[0m
-    8   | Invisible | - - - |  -  |       * \\033[0m
-    9   | Strike    | - - - |  -  |       * \\033[0m
-
-"
-echo -e "
-	Enter Font :
-"
-read -p "
-	0 to 9
-	: " f
-
-echo -e "
-	Enter ForeGround or Background Code :
-"
-read -p "
-	3 Or 4
-	: " g
-
-echo -e "
-        Enter BackGround Color-Code :
-"
-read -p "	R : " r
-read -p "	G : " g
-read -p "	B : " b
-
 function RGBcolor {
     echo -e "16 + $1 * 36 + $2 * 6 + $3" | bc
 }
 
-c=$(RGBcolor $r $g $b)
+c=$(RGBcolor $3 $4 $5)
 
-$PREFIX/bin/termux-clipboard-set "\\\\\\\\033[${f};${g}8;5;${c}m"
+/data/data/com.termux/files/usr/bin/termux-clipboard-set "\\\\\\\\033[$1;${2}8;5;${c}m"
 
-echo -e "\n\\033[${f};${g}8;5;${c}m This Color Code Copied on ClipBoard \\033[0m\n"
+echo -e "\\033[${1};${2}8;5;${c}m$6\\033[0m"
