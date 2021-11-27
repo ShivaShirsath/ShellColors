@@ -17,7 +17,7 @@ getColorCode
 
 ### Use code
 ```json
-echo -e "[ long press & paste Color Code ]Your Text !"
+echo -e "`getColorCode font layer red green blue 'Text'`"
 # Or
-printf "[ Long press & paste Color Code ]Your Text !"
+printf "`getColorCode font layer red green blue 'Text'`"
 ```
