@@ -12,7 +12,7 @@ cd $PWDx
 ```
 ### Generate Code 
 ```bash
-getColorCode
+`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`
 ```
 
 ### Use code
