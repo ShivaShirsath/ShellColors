@@ -13,11 +13,13 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 
 </details>
 
-### Generate Code 
+<details>
+  <summary>Generate Code</summary>
+  
 ```bash
 getColorCode FONT LAYER RED GREEN BLUE 'TEXT'
 ```
-
+</details>
 <details>
   <summary>Use code</summary>
   
