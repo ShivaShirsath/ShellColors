@@ -20,6 +20,7 @@ cd $PWDx
 echo -e "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`"
 ```
 <p align=center>Or</p>
+
 ```bash
 printf  "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`\n"
 ```
