@@ -8,7 +8,9 @@ pkg install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/ShivaShi
 getColorCode FONT LAYER RED GREEN BLUE 'TEXT'
 ```
 
-<details><summary>Use code</summary>
+<details>
+  <summary>Use code</summary>
+  
 ```bash
 echo -e "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`"
 ```
