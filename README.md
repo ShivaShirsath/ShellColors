@@ -23,9 +23,9 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 <th></th>
 <th>FONT</th>
 <th>LAYER</th>
-<th>RED</th>
-<th>GREEN</th>
-<th>BLUE</th>
+<th>R</th>
+<th>G</th>
+<th>B</th>
 </tr>
 </thead>
 <tbody>
