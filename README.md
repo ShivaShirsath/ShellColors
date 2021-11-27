@@ -56,7 +56,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 <tr>
 <td>3</td>
 <td><i>Itallic</i></td>
-<td>Foreground</td>
+<td><img src=https://user-images.githubusercontent.com/59221352/143685076-f1e20161-12cf-458e-ad60-ea281389e492.png></img></td>
 <td>*</td>
 <td>*</td>
 <td>*</td>
