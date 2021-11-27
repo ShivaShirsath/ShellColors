@@ -16,8 +16,8 @@ getColorCode
 ```
 
 ### Use code
-```json
-echo -e "`getColorCode font layer red green blue 'Text'`"
+```bash
+echo -e "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`"
 # Or
-printf "`getColorCode font layer red green blue 'Text'`"
+printf  "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`\n"
 ```
