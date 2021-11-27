@@ -64,7 +64,7 @@ sudo apt install git -y && PWDx=$PWD && cd ~ && git clone https://github.com/Shi
 </tr>
 <tr>
 <td>4</td>
-<td><ins>Underlined</ins>></td>
+<td><ins>Underlined</ins></td>
 <td>Background</td>
 <td>*</td>
 <td>*</td>
