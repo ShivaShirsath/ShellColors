@@ -18,7 +18,9 @@ cd $PWDx
 ### Use code
 ```bash
 echo -e "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`"
-# Or
+```
+<p align=center>Or</p>
+```bash
 printf  "`getColorCode FONT LAYER RED GREEN BLUE 'TEXT'`\n"
 ```
 ##### when you use this, each time new color code generate & copied on your clipboard. 
