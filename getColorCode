@@ -8,13 +8,13 @@ if [ -z '' ]
 then
   echo "
 
-FONT    LAYER   R       G       B
+FONT    LAYER           R       G       B
 
 0       Normal          *       *       *
 1       Bolt            *       *       *
 2       Dim             *       *       *
 3       Itallic         *       *       *
-4       Underline               *       *       *
+4       Underline       *       *       *
 5       Blink           *       *       *
 6       Intense
 7       Inverse
