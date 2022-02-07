@@ -4,7 +4,30 @@ function RGBcolor {
     echo -e "16 + $1 * 36 + $2 * 6 + $3" | bc
 }
 
-c=$(RGBcolor $3 $4 $5)
+if [ -z '' ]
+then
+  echo "
+
+FONT    LAYER   R       G       B
+
+0       Normal          *       *       *
+1       Bolt            *       *       *
+2       Dim             *       *       *
+3       Itallic         *       *       *
+4       Underline               *       *       *
+5       Blink           *       *       *
+6       Intense
+7       Inverse
+8       Invisible
+9       Strike
+
+getColorCode FONT LAYER R G B 'TEXT'
+
+"
+
+else
+  c=$(RGBcolor $3 $4 $5)
+fi
 
 /data/data/com.termux/files/usr/bin/termux-clipboard-set "\\\\\\\\033[$1;${2}8;5;${c}m"
 
